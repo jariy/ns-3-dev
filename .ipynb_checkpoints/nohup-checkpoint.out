@@ -1,0 +1,2188 @@
+Already up to date.
+Waf: Entering directory `/home/ubuntu/ns-3-dev/build'
+Waf: Leaving directory `/home/ubuntu/ns-3-dev/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.133s)
+
+{
+	"pingPeriod" : "0",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "0",
+	"seed" : "12345",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-0-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-0-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-0-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-0-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+3501284690	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:860993	 m_nClassBPacketsSent:673	 m_nUSPackets:380
+3501284690	0	0	4	0
+m_devAddr: 3501284690	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 340	m_ClassBfcntBeacon: 666	m_ClassBPingPeriodicity: 0
+
+{
+	"pingPeriod" : "0",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "1",
+	"seed" : "12346",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-1-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-1-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-1-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-1-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+1893630303	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:860990	 m_nClassBPacketsSent:673	 m_nUSPackets:386
+1893630303	0	0	2	1
+m_devAddr: 1893630303	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 341	m_ClassBfcntBeacon: 668	m_ClassBPingPeriodicity: 0
+
+{
+	"pingPeriod" : "0",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "2",
+	"seed" : "12347",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-2-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-2-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-2-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-2-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+4033111126	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:860991	 m_nClassBPacketsSent:673	 m_nUSPackets:382
+4033111126	0	0	5	3
+m_devAddr: 4033111126	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 337	m_ClassBfcntBeacon: 665	m_ClassBPingPeriodicity: 0
+
+{
+	"pingPeriod" : "0",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "3",
+	"seed" : "12348",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-3-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-3-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-3-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-3-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+3226589789	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:860992	 m_nClassBPacketsSent:673	 m_nUSPackets:384
+3226589789	0	0	3	4
+m_devAddr: 3226589789	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 336	m_ClassBfcntBeacon: 667	m_ClassBPingPeriodicity: 0
+
+{
+	"pingPeriod" : "0",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "4",
+	"seed" : "12349",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-4-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-4-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-4-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-4-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+541787525	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:860994	 m_nClassBPacketsSent:673	 m_nUSPackets:383
+541787525	0	0	5	4
+m_devAddr: 541787525	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 339	m_ClassBfcntBeacon: 665	m_ClassBPingPeriodicity: 0
+
+{
+	"pingPeriod" : "0",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "5",
+	"seed" : "12350",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-5-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-5-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-5-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-5-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+4031053164	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:860995	 m_nClassBPacketsSent:673	 m_nUSPackets:382
+4031053164	0	0	2	1
+m_devAddr: 4031053164	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 340	m_ClassBfcntBeacon: 668	m_ClassBPingPeriodicity: 0
+
+{
+	"pingPeriod" : "0",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "6",
+	"seed" : "12351",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-6-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-6-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-6-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-6-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+1621831009	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:860991	 m_nClassBPacketsSent:673	 m_nUSPackets:388
+1621831009	0	0	2	1
+m_devAddr: 1621831009	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 339	m_ClassBfcntBeacon: 668	m_ClassBPingPeriodicity: 0
+
+{
+	"pingPeriod" : "0",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "7",
+	"seed" : "12352",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-7-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-7-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-7-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-7-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+1619303557	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:860991	 m_nClassBPacketsSent:672	 m_nUSPackets:375
+1619303557	0	0	4	2
+m_devAddr: 1619303557	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 339	m_ClassBfcntBeacon: 666	m_ClassBPingPeriodicity: 0
+
+{
+	"pingPeriod" : "0",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "8",
+	"seed" : "12353",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-8-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-8-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-8-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-8-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+1887406943	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:860992	 m_nClassBPacketsSent:673	 m_nUSPackets:386
+1887406943	0	0	2	2
+m_devAddr: 1887406943	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 340	m_ClassBfcntBeacon: 668	m_ClassBPingPeriodicity: 0
+
+{
+	"pingPeriod" : "0",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "9",
+	"seed" : "12354",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-9-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-9-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-9-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652136-9-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+3759640003	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:860993	 m_nClassBPacketsSent:673	 m_nUSPackets:381
+3759640003	0	0	1	1
+m_devAddr: 3759640003	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 339	m_ClassBfcntBeacon: 669	m_ClassBPingPeriodicity: 0
+Waf: Entering directory `/home/ubuntu/ns-3-dev/build'
+Waf: Leaving directory `/home/ubuntu/ns-3-dev/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (0.881s)
+
+{
+	"pingPeriod" : "1",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "0",
+	"seed" : "12345",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-0-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-0-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-0-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-0-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+3492932674	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:1724980	 m_nClassBPacketsSent:1348	 m_nUSPackets:380
+3492932674	0	0	4	3
+m_devAddr: 3492932674	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 681	m_ClassBfcntBeacon: 666	m_ClassBPingPeriodicity: 1
+
+{
+	"pingPeriod" : "1",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "1",
+	"seed" : "12346",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-1-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-1-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-1-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-1-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+270616657	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:1724978	 m_nClassBPacketsSent:1348	 m_nUSPackets:385
+270616657	0	0	2	1
+m_devAddr: 270616657	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 686	m_ClassBfcntBeacon: 668	m_ClassBPingPeriodicity: 1
+
+{
+	"pingPeriod" : "1",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "2",
+	"seed" : "12347",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-2-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-2-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-2-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-2-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+1891640664	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:1724980	 m_nClassBPacketsSent:1348	 m_nUSPackets:381
+1891640664	0	0	5	2
+m_devAddr: 1891640664	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 683	m_ClassBfcntBeacon: 665	m_ClassBPingPeriodicity: 1
+
+{
+	"pingPeriod" : "1",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "3",
+	"seed" : "12348",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-3-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-3-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-3-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-3-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+2150364249	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:1724978	 m_nClassBPacketsSent:1348	 m_nUSPackets:386
+2150364249	0	0	3	6
+m_devAddr: 2150364249	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 679	m_ClassBfcntBeacon: 667	m_ClassBPingPeriodicity: 1
+
+{
+	"pingPeriod" : "1",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "4",
+	"seed" : "12349",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-4-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-4-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-4-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-4-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+3499508648	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:1724978	 m_nClassBPacketsSent:1348	 m_nUSPackets:380
+3499508648	0	0	5	7
+m_devAddr: 3499508648	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 678	m_ClassBfcntBeacon: 665	m_ClassBPingPeriodicity: 1
+
+{
+	"pingPeriod" : "1",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "5",
+	"seed" : "12350",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-5-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-5-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-5-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-5-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+2416209243	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:1724979	 m_nClassBPacketsSent:1347	 m_nUSPackets:383
+2416209243	0	0	2	4
+m_devAddr: 2416209243	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 679	m_ClassBfcntBeacon: 668	m_ClassBPingPeriodicity: 1
+
+{
+	"pingPeriod" : "1",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "6",
+	"seed" : "12351",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-6-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-6-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-6-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-6-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+3760200601	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:1724979	 m_nClassBPacketsSent:1348	 m_nUSPackets:386
+3760200601	0	0	2	5
+m_devAddr: 3760200601	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 681	m_ClassBfcntBeacon: 668	m_ClassBPingPeriodicity: 1
+
+{
+	"pingPeriod" : "1",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "7",
+	"seed" : "12352",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-7-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-7-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-7-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-7-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+268509621	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:1724980	 m_nClassBPacketsSent:1348	 m_nUSPackets:373
+268509621	0	0	4	4
+m_devAddr: 268509621	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 681	m_ClassBfcntBeacon: 666	m_ClassBPingPeriodicity: 1
+
+{
+	"pingPeriod" : "1",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "8",
+	"seed" : "12353",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-8-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-8-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-8-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-8-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+550014732	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:1724979	 m_nClassBPacketsSent:1348	 m_nUSPackets:387
+550014732	0	0	2	5
+m_devAddr: 550014732	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 679	m_ClassBfcntBeacon: 668	m_ClassBPingPeriodicity: 1
+
+{
+	"pingPeriod" : "1",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "9",
+	"seed" : "12354",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-9-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-9-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-9-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652432-9-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+3235319779	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:1724979	 m_nClassBPacketsSent:1347	 m_nUSPackets:383
+3235319779	0	0	1	8
+m_devAddr: 3235319779	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 680	m_ClassBfcntBeacon: 669	m_ClassBPingPeriodicity: 1
+Waf: Entering directory `/home/ubuntu/ns-3-dev/build'
+Waf: Leaving directory `/home/ubuntu/ns-3-dev/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (0.732s)
+
+{
+	"pingPeriod" : "2",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "0",
+	"seed" : "12345",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-0-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-0-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-0-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-0-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+3500217537	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:3452955	 m_nClassBPacketsSent:2696	 m_nUSPackets:375
+3500217537	0	0	4	13
+m_devAddr: 3500217537	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 1362	m_ClassBfcntBeacon: 666	m_ClassBPingPeriodicity: 2
+
+{
+	"pingPeriod" : "2",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "1",
+	"seed" : "12346",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-1-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-1-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-1-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-1-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+2689615041	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:3452952	 m_nClassBPacketsSent:2696	 m_nUSPackets:383
+2689615041	0	0	2	14
+m_devAddr: 2689615041	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 1354	m_ClassBfcntBeacon: 668	m_ClassBPingPeriodicity: 2
+
+{
+	"pingPeriod" : "2",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "2",
+	"seed" : "12347",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-2-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-2-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-2-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-2-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+2959356616	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:3452952	 m_nClassBPacketsSent:2696	 m_nUSPackets:382
+2959356616	0	0	5	9
+m_devAddr: 2959356616	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 1364	m_ClassBfcntBeacon: 665	m_ClassBPingPeriodicity: 2
+
+{
+	"pingPeriod" : "2",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "3",
+	"seed" : "12348",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-3-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-3-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-3-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-3-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+807022041	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:3452952	 m_nClassBPacketsSent:2696	 m_nUSPackets:384
+807022041	0	0	3	14
+m_devAddr: 807022041	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 1365	m_ClassBfcntBeacon: 667	m_ClassBPingPeriodicity: 2
+
+{
+	"pingPeriod" : "2",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "4",
+	"seed" : "12349",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-4-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-4-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-4-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-4-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+2964244503	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:3452954	 m_nClassBPacketsSent:2696	 m_nUSPackets:379
+2964244503	0	0	5	13
+m_devAddr: 2964244503	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 1365	m_ClassBfcntBeacon: 665	m_ClassBPingPeriodicity: 2
+
+{
+	"pingPeriod" : "2",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "5",
+	"seed" : "12350",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-5-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-5-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-5-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-5-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+277489985	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:3452953	 m_nClassBPacketsSent:2696	 m_nUSPackets:377
+277489985	0	0	2	10
+m_devAddr: 277489985	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 1368	m_ClassBfcntBeacon: 668	m_ClassBPingPeriodicity: 2
+
+{
+	"pingPeriod" : "2",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "6",
+	"seed" : "12351",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-6-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-6-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-6-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-6-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+3766047330	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:3452950	 m_nClassBPacketsSent:2696	 m_nUSPackets:384
+3766047330	0	0	2	10
+m_devAddr: 3766047330	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 1364	m_ClassBfcntBeacon: 668	m_ClassBPingPeriodicity: 2
+
+{
+	"pingPeriod" : "2",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "7",
+	"seed" : "12352",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-7-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-7-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-7-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-7-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+2164197232	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:3452951	 m_nClassBPacketsSent:2696	 m_nUSPackets:367
+2164197232	0	0	4	12
+m_devAddr: 2164197232	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 1362	m_ClassBfcntBeacon: 666	m_ClassBPingPeriodicity: 2
+
+{
+	"pingPeriod" : "2",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "8",
+	"seed" : "12353",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-8-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-8-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-8-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-8-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+821110745	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:3452954	 m_nClassBPacketsSent:2696	 m_nUSPackets:386
+821110745	0	0	2	9
+m_devAddr: 821110745	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 1364	m_ClassBfcntBeacon: 668	m_ClassBPingPeriodicity: 2
+
+{
+	"pingPeriod" : "2",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "9",
+	"seed" : "12354",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-9-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-9-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-9-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623652832-9-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+2158597912	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:3452954	 m_nClassBPacketsSent:2696	 m_nUSPackets:381
+2158597912	0	0	1	10
+m_devAddr: 2158597912	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 1356	m_ClassBfcntBeacon: 669	m_ClassBPingPeriodicity: 2
+Waf: Entering directory `/home/ubuntu/ns-3-dev/build'
+Waf: Leaving directory `/home/ubuntu/ns-3-dev/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (0.746s)
+
+{
+	"pingPeriod" : "3",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "0",
+	"seed" : "12345",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-0-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-0-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-0-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-0-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+3497130475	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:6908898	 m_nClassBPacketsSent:5392	 m_nUSPackets:370
+3497130475	0	0	4	18
+m_devAddr: 3497130475	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 2724	m_ClassBfcntBeacon: 666	m_ClassBPingPeriodicity: 3
+
+{
+	"pingPeriod" : "3",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "1",
+	"seed" : "12346",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-1-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-1-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-1-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-1-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+2686462444	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:6908900	 m_nClassBPacketsSent:5392	 m_nUSPackets:377
+2686462444	0	0	2	18
+m_devAddr: 2686462444	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 2733	m_ClassBfcntBeacon: 668	m_ClassBPingPeriodicity: 3
+
+{
+	"pingPeriod" : "3",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "2",
+	"seed" : "12347",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-2-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-2-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-2-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-2-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+276861773	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:6908901	 m_nClassBPacketsSent:5392	 m_nUSPackets:375
+276861773	0	0	5	17
+m_devAddr: 276861773	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 2737	m_ClassBfcntBeacon: 665	m_ClassBPingPeriodicity: 3
+
+{
+	"pingPeriod" : "3",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "3",
+	"seed" : "12348",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-3-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-3-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-3-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-3-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+3235662602	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:6908903	 m_nClassBPacketsSent:5392	 m_nUSPackets:382
+3235662602	0	0	3	21
+m_devAddr: 3235662602	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 2729	m_ClassBfcntBeacon: 667	m_ClassBPingPeriodicity: 3
+
+{
+	"pingPeriod" : "3",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "4",
+	"seed" : "12349",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-4-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-4-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-4-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-4-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+1345810572	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:6908903	 m_nClassBPacketsSent:5392	 m_nUSPackets:378
+1345810572	0	0	5	17
+m_devAddr: 1345810572	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 2745	m_ClassBfcntBeacon: 665	m_ClassBPingPeriodicity: 3
+
+{
+	"pingPeriod" : "3",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "5",
+	"seed" : "12350",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-5-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-5-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-5-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-5-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+814324421	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:6908901	 m_nClassBPacketsSent:5392	 m_nUSPackets:375
+814324421	0	0	2	24
+m_devAddr: 814324421	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 2735	m_ClassBfcntBeacon: 668	m_ClassBPingPeriodicity: 3
+
+{
+	"pingPeriod" : "3",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "6",
+	"seed" : "12351",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-6-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-6-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-6-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-6-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+3225586222	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:6908903	 m_nClassBPacketsSent:5392	 m_nUSPackets:385
+3225586222	0	0	2	18
+m_devAddr: 3225586222	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 2732	m_ClassBfcntBeacon: 668	m_ClassBPingPeriodicity: 3
+
+{
+	"pingPeriod" : "3",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "7",
+	"seed" : "12352",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-7-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-7-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-7-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-7-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+4029584007	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:6908901	 m_nClassBPacketsSent:5392	 m_nUSPackets:370
+4029584007	0	0	4	18
+m_devAddr: 4029584007	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 2741	m_ClassBfcntBeacon: 666	m_ClassBPingPeriodicity: 3
+
+{
+	"pingPeriod" : "3",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "8",
+	"seed" : "12353",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-8-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-8-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-8-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-8-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+807962106	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:6908900	 m_nClassBPacketsSent:5392	 m_nUSPackets:376
+807962106	0	0	2	24
+m_devAddr: 807962106	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 2715	m_ClassBfcntBeacon: 668	m_ClassBPingPeriodicity: 3
+
+{
+	"pingPeriod" : "3",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "9",
+	"seed" : "12354",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-9-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-9-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-9-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623653403-9-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Waf: Entering directory `/home/ubuntu/ns-3-dev/build'
+Waf: Leaving directory `/home/ubuntu/ns-3-dev/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.095s)
+
+{
+	"pingPeriod" : "4",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "0",
+	"seed" : "12345",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-0-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-0-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-0-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-0-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+3491864711	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:13820794	 m_nClassBPacketsSent:10784	 m_nUSPackets:361
+3491864711	0	0	4	39
+m_devAddr: 3491864711	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 5450	m_ClassBfcntBeacon: 666	m_ClassBPingPeriodicity: 4
+
+{
+	"pingPeriod" : "4",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "1",
+	"seed" : "12346",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-1-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-1-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-1-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-1-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+2426719623	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:13820795	 m_nClassBPacketsSent:10784	 m_nUSPackets:367
+2426719623	0	0	2	36
+m_devAddr: 2426719623	m_attemptedThroughput: 97	m_fcntRX1: 1	m_fcntRX2: 0	m_ClassBfcntDown: 5533	m_ClassBfcntBeacon: 668	m_ClassBPingPeriodicity: 4
+
+{
+	"pingPeriod" : "4",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "2",
+	"seed" : "12347",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-2-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-2-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-2-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-2-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+7424974	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:13820797	 m_nClassBPacketsSent:10784	 m_nUSPackets:370
+7424974	0	0	5	40
+m_devAddr: 7424974	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 5471	m_ClassBfcntBeacon: 665	m_ClassBPingPeriodicity: 4
+
+{
+	"pingPeriod" : "4",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "3",
+	"seed" : "12348",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-3-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-3-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-3-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-3-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+3234113517	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:13820794	 m_nClassBPacketsSent:10784	 m_nUSPackets:374
+3234113517	0	0	3	40
+m_devAddr: 3234113517	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 5451	m_ClassBfcntBeacon: 667	m_ClassBPingPeriodicity: 4
+
+{
+	"pingPeriod" : "4",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "4",
+	"seed" : "12349",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-4-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-4-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-4-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623654466-4-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Waf: Entering directory `/home/ubuntu/ns-3-dev/build'
+Waf: Leaving directory `/home/ubuntu/ns-3-dev/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.322s)
+
+{
+	"pingPeriod" : "5",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "0",
+	"seed" : "12345",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623659140-0-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623659140-0-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623659140-0-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623659140-0-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+3495007267	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:27644582	 m_nClassBPacketsSent:21568	 m_nUSPackets:347
+3495007267	0	0	4	80
+m_devAddr: 3495007267	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 11032	m_ClassBfcntBeacon: 666	m_ClassBPingPeriodicity: 5
+
+{
+	"pingPeriod" : "5",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "1",
+	"seed" : "12346",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623659140-1-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623659140-1-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623659140-1-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623659140-1-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+270386211	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:27644582	 m_nClassBPacketsSent:21568	 m_nUSPackets:356
+270386211	0	0	2	80
+m_devAddr: 270386211	m_attemptedThroughput: 97	m_fcntRX1: 1	m_fcntRX2: 0	m_ClassBfcntDown: 11060	m_ClassBfcntBeacon: 668	m_ClassBPingPeriodicity: 5
+
+{
+	"pingPeriod" : "5",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "2",
+	"seed" : "12347",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623659140-2-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623659140-2-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623659140-2-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623659140-2-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Waf: Entering directory `/home/ubuntu/ns-3-dev/build'
+Waf: Leaving directory `/home/ubuntu/ns-3-dev/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.371s)
+
+{
+	"pingPeriod" : "6",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "0",
+	"seed" : "12345",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623662018-0-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623662018-0-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623662018-0-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623662018-0-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Starting simulation for 86400 s ...
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+0	0	0	0	0
+3491835586	 m_nDSPacketsGenerated:0	 m_nDSPacketsSent:0	 m_nDSPacketsSentRW1:0	 m_nDSPacketsSentRW2:0	 m_nDSRetransmission:0	 m_nDSAcks:0	 m_numberOfBeacons:674	 m_nClassBPacketsGenerated:55292164	 m_nClassBPacketsSent:43136	 m_nUSPackets:308
+3491835586	0	0	4	168
+m_devAddr: 3491835586	m_attemptedThroughput: 97	m_fcntRX1: 0	m_fcntRX2: 0	m_ClassBfcntDown: 22875	m_ClassBfcntBeacon: 666	m_ClassBPingPeriodicity: 6
+
+{
+	"pingPeriod" : "6",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "1",
+	"seed" : "12346",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623662018-1-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623662018-1-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623662018-1-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623662018-1-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+Waf: Entering directory `/home/ubuntu/ns-3-dev/build'
+Waf: Leaving directory `/home/ubuntu/ns-3-dev/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.665s)
+
+{
+	"pingPeriod" : "7",
+	"randomSeed" : "12345",
+	"nEndDevices" : "1",
+	"nGateways" : "4",
+	"discRadius" : "5000",
+	"totalTime" : "86400",
+	"nRuns" : "10",
+	"usPacketSize" : "21",
+	"usMaxBytes" : "0",
+	"usDataPeriod" : "600",
+	"usUnconfirmedDataNbRep" : "1",
+	"usConfirmedData" : "0",
+	"dsPacketSize" : "21",
+	"dsDataGenerate" : "0",
+	"dsDataExpMean" : "6000",
+	"dsConfirmedData" : "0",
+	"verbose" : "0",
+	"classBDST" : "300",
+	"classBInDS" : "0.1",
+	"offsetOn" : "1",
+	"MaliciousTime" : "43200",
+	"DMaliciousSec" : "1",
+	"outputFileNamePrefix" : "singlePingTest/LoRaWAN-SinglePingSlot",
+	"run"  : "0",
+	"seed" : "12345",
+	"classBPacketsSentCSVFileName" :  "singlePingTest/LoRaWAN-SinglePingSlot-1623663485-0-trace-ClassB-Packets-tx.csv",
+	"ClassBPacketsRecievedCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623663485-0-trace-ClassB-Packets-rx.csv",
+	"numberofBeaconsCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623663485-0-trace-numberofBeacons-rx.csv",
+	"nodesCSVFileName" : "singlePingTest/LoRaWAN-SinglePingSlot-1623663485-0-nodes.csv"
+}
+Initialiing LongTerm /nCreating 4 LoRaWAN gateway(s).
+Creating 1 LoRaWAN class B end devices.
+ns3::UniformRandomVariable[Min=299|Max=300]
+cat: results5.txt: No such file or directory
+sendmail: 552 5.2.3 guidelines. 6sm12403966pfw.56 - gsmtp
